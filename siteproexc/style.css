@@ -1,0 +1,57 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza horizontalmente */
+    justify-content: center; /* Centraliza verticalmente */
+    min-height: 100vh; /* Garante que o conteúdo ocupe pelo menos a altura da tela */
+}
+
+/* Estilize o menu principal */
+.header {
+    background-color: #7B001F; /* Vermelho Grená */
+    color: #FFF;
+    padding: 10px;
+    text-align: center;
+    width: 100%; /* Ocupa toda a largura da tela */
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    width: 100%; /* Ocupa toda a largura da tela */
+}
+
+.nav a {
+    color: #FFF;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+/* Adicione separação visual entre as seções */
+.section {
+    width: 100%; /* Ocupa toda a largura da tela */
+    padding: 20px;
+    border-top: 1px solid #ccc; /* Adiciona uma borda no topo da seção */
+    text-align: center; /* Centraliza o conteúdo na seção */
+}
+
+.side-by-side {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.side-by-side .sub-section {
+    width: calc(50% - 20px);
+    margin-bottom: 20px;
+}
+
+.section-title {
+    text-align: center;
+}
