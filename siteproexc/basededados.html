@@ -18,8 +18,6 @@
       </nav>
     </header>
 
-    <!-- ... Código anterior ... -->
-
     <section class="section">
       <form id="chartForm">
         <label for="selectYear">Escolha o Ano:</label>
@@ -110,10 +108,7 @@
         });
         generatedata.addEventListener("click", function (event) {
           var selectedEdital = selectEdital.value;
-          // Aqui você pode obter os dados do edital selecionado e suas informações
-          // Atualize a variável data com os dados reais do edital
           var data = generateRandomData();
-          // Atualize a variável labels com as informações correspondentes
           var labels = [
             "Artes Cênicas",
             "Audiovisual",
